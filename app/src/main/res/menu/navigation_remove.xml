@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_create"
+        android:title="Create Spinner Items" />
+
+    <item  android:id="@+id/navigation_addItem"
+        android:title="Add Item"/>
+
+
+</menu>

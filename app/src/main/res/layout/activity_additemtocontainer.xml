@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemToContainer">
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/toolbar_home"/>
+
+
+    <EditText
+        android:id="@+id/in_addItem"
+        android:layout_width="370dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="add item"
+        android:inputType="textPersonName"
+        android:maxLength="50" />
+
+    <Spinner
+        android:id="@+id/spinner_getRooms"
+        android:layout_width="257dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtv_item"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:textSize="16dp"
+        android:text="Item" />
+
+    <TextView
+        android:id="@+id/txtnote"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="130dp"
+        android:textSize="16dp"
+        android:text="Note: Items added here will be viewed in the recyclerview." />
+
+
+</RelativeLayout>

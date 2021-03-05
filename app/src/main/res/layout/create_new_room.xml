@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_sucess"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNewRoom">
+
+    <include
+        android:id="@+id/toolbar_create"
+        layout="@layout/toolbar_create"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="74dp"
+        android:background="#4CAF50"
+        android:onClick="onClick"
+        android:text="CREATE" />
+
+    <EditText
+        android:id="@+id/input_createRoom"
+        android:layout_width="265dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Enter Room"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="" />
+
+
+
+</RelativeLayout>
